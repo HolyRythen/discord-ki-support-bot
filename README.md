@@ -35,19 +35,19 @@ discord-ki-bot/
    cd discord-ki-bot
 
 
-Abhängigkeiten installieren
+**Abhängigkeiten installieren**
+   ```bash
+   npm install
+```
 
-npm install
-
-
-.env Datei erstellen
-
+**.env Datei erstellen**
+```bash
 DISCORD_TOKEN=DEIN_DISCORD_BOT_TOKEN
 GUILD_ID=DEINE_DISCORD_SERVER_ID
 SUPPORT_CHANNEL_ID=ID_DES_SUPPORT_CHANNELS
 SUPPORT_ROLE_ID=OPTIONALE_SUPPORTROLLE
 OLLAMA_BASE_URL=http://localhost:11434/v1
 MODEL=gpt-oss:20b
-
+```
 
 Ollama installieren (falls noch nicht vorhanden)
