@@ -1,5 +1,5 @@
 📄 README.md
-# 🤖 MTechHost Discord KI-Support-Bot
+# 🤖 Discord KI-Support-Bot
 
 Ein Discord-Bot für Firmen-Support, basierend auf einer **lokalen KI (Ollama)**.  
 Der Bot kann Support-Tickets erstellen, Fragen beantworten und nutzt eine **Wissensbasis (kb.index.json)** mit Informationen über dein Unternehmen, Tarife und Verträge.
