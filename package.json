@@ -1,0 +1,8 @@
+{
+  "type": "module",
+  "dependencies": {
+    "discord.js": "^14.21.0",
+    "dotenv": "^17.2.1",
+    "openai": "^5.13.1"
+  }
+}

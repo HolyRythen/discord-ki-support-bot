@@ -1,0 +1,32 @@
+[
+  {
+    "id": "firma-overview",
+    "title": "Unternehmen",
+    "tags": ["firma", "kontakt", "öffnungszeiten"],
+    "content": "Customhost ist ein Hosting-/Serverdienstleister in München. Kontakt: Customhost@gmail.com, Tel. 015226621998. Bürozeiten: Mo–Fr 9–17 Uhr."
+  },
+  {
+    "id": "plan-basic",
+    "title": "Paket Basic",
+    "tags": ["preise", "tarif", "hosting"],
+    "content": "Basic: 15 €/Monat. 1 vCPU, 2 GB RAM, 20 GB SSD, 1 Domain inkl., Support per E-Mail (Reaktionszeit <24h)."
+  },
+  {
+    "id": "plan-pro",
+    "title": "Paket Pro",
+    "tags": ["preise", "tarif", "hosting"],
+    "content": "Pro: 49 €/Monat. 2 vCPU, 4 GB RAM, 60 GB SSD, 2 Domains, tägliche Backups, Prioritäts-Support (4h)."
+  },
+  {
+    "id": "plan-enterprise",
+    "title": "Paket Enterprise",
+    "tags": ["preise", "tarif", "hosting", "sla"],
+    "content": "Enterprise: ab 149 €/Monat. 4+ vCPU, 8+ GB RAM, 200+ GB SSD, individuelle SLAs, dedizierter Ansprechpartner."
+  },
+  {
+    "id": "kuendigung",
+    "title": "Kündigung & Laufzeit",
+    "tags": ["agb", "vertrag"],
+    "content": "Laufzeit monatlich kündbar, Kündigungsfrist 14 Tage zum Monatsende. Abrechnung monatlich, Zahlungsziel 14 Tage."
+  }
+]
