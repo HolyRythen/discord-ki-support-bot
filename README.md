@@ -22,7 +22,7 @@ discord-ki-bot/
 ├── index.js # Haupt-Bot-Code
 ├── kb.index.json # Wissensbasis mit Firmeninfos, Tarifen, Verträgen
 ├── package.json # NPM Dependencies
-├── .env # Umgebungsvariablen (nicht committen!)
+├── .env # Umgebungsvariablen
 ```
 
 
