@@ -17,12 +17,13 @@ Der Bot kann Support-Tickets erstellen, Fragen beantworten und nutzt eine **Wiss
 
 ## 📂 Projektstruktur
 
-
+```bash
 discord-ki-bot/
 ├── index.js # Haupt-Bot-Code
 ├── kb.index.json # Wissensbasis mit Firmeninfos, Tarifen, Verträgen
 ├── package.json # NPM Dependencies
 ├── .env # Umgebungsvariablen (nicht committen!)
+```
 
 
 ---
