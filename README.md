@@ -66,7 +66,7 @@ env
 Kopieren
 Bearbeiten
 ```
-# --- Discord Bot ---
+## Discord Bot 
 DISCORD_TOKEN=DEIN_DISCORD_BOT_TOKEN
 GUILD_ID=DEIN_SERVER_ID
 SUPPORT_ROLE_ID=DEINE_SUPPORT_ROLLE
@@ -75,16 +75,16 @@ ADMIN_ROLE_ID=DEINE_ADMIN_ROLLE
 ADMIN_ALERT_CHANNEL_ID=DEIN_ADMIN_ALERT_KANAL
 MAX_TICKETS_PER_USER=2
 
-# --- KI / Ollama ---
+## KI / Ollama
 OLLAMA_BASE_URL=http://localhost:11434/v1
 MODEL=gpt-oss:20b
 EMBED_MODEL=nomic-embed-text
 
-# --- Wissensdatenbank ---
+## Wissensdatenbank
 KB_PATH=./kb.json
 KB_INDEX_PATH=./kb.index.json
 
-# --- Datenbank ---
+## Datenbank 
 DB_HOST=127.0.0.1
 DB_PORT=3306
 DB_USER=root
@@ -109,4 +109,4 @@ Antworten nur zu Hosting-Themen
 
 Verdächtige Anfragen → Meldung im Admin-Kanal
 
-Keine Speicherung von sensiblen Daten
+## Keine Speicherung von sensiblen Daten
