@@ -1,32 +1,92 @@
 [
   {
-    "id": "firma-overview",
+    "id": "company-overview",
     "title": "Unternehmen",
-    "tags": ["firma", "kontakt", "öffnungszeiten"],
-    "content": "Customhost ist ein Hosting-/Serverdienstleister in München. Kontakt: Customhost@gmail.com, Tel. 015226621998. Bürozeiten: Mo–Fr 9–17 Uhr."
+    "tags": ["firma", "kontakt", "support", "öffnungszeiten"],
+    "content": "Customhost ist ein Hosting- und IT-Dienstleister mit Sitz in München. Kontakt: support@Customhost.de, Tel: 01522 6621998. Bürozeiten: Mo–Fr, 09:00–17:00 Uhr."
+  },
+  {
+    "id": "services",
+    "title": "Dienstleistungen",
+    "tags": ["angebote", "produkte", "services"],
+    "content": "Wir bieten Webhosting, vServer, dedizierte Server, SAP-Hosting, Cloud-Speicher, Domains, Backup-Lösungen, Monitoring und Managed Hosting an."
   },
   {
     "id": "plan-basic",
     "title": "Paket Basic",
-    "tags": ["preise", "tarif", "hosting"],
-    "content": "Basic: 15 €/Monat. 1 vCPU, 2 GB RAM, 20 GB SSD, 1 Domain inkl., Support per E-Mail (Reaktionszeit <24h)."
+    "tags": ["preise", "tarif", "basic"],
+    "content": "15 €/Monat: 1 vCPU, 2 GB RAM, 20 GB SSD, 1 Domain inklusive, Support per E-Mail mit Antwortzeit <24h."
   },
   {
     "id": "plan-pro",
     "title": "Paket Pro",
-    "tags": ["preise", "tarif", "hosting"],
-    "content": "Pro: 49 €/Monat. 2 vCPU, 4 GB RAM, 60 GB SSD, 2 Domains, tägliche Backups, Prioritäts-Support (4h)."
+    "tags": ["preise", "tarif", "pro"],
+    "content": "49 €/Monat: 2 vCPU, 4 GB RAM, 60 GB SSD, 2 Domains inklusive, tägliche Backups, Prioritäts-Support mit Antwortzeit <4h."
   },
   {
     "id": "plan-enterprise",
     "title": "Paket Enterprise",
-    "tags": ["preise", "tarif", "hosting", "sla"],
-    "content": "Enterprise: ab 149 €/Monat. 4+ vCPU, 8+ GB RAM, 200+ GB SSD, individuelle SLAs, dedizierter Ansprechpartner."
+    "tags": ["preise", "tarif", "enterprise", "sla"],
+    "content": "Ab 149 €/Monat: 4+ vCPU, 8+ GB RAM, 200+ GB SSD, individuelle SLAs, dedizierter Ansprechpartner, 24/7-Support."
   },
   {
-    "id": "kuendigung",
-    "title": "Kündigung & Laufzeit",
-    "tags": ["agb", "vertrag"],
-    "content": "Laufzeit monatlich kündbar, Kündigungsfrist 14 Tage zum Monatsende. Abrechnung monatlich, Zahlungsziel 14 Tage."
+    "id": "plan-sap",
+    "title": "SAP Hosting",
+    "tags": ["sap", "business", "tarif"],
+    "content": "SAP Business One Hosting: Ab 299 €/Monat. Dedizierte Infrastruktur, zertifizierte SAP-Basisbetreuung, tägliche Backups, Hochverfügbarkeit, DSGVO-konforme Datenhaltung in Deutschland."
+  },
+  {
+    "id": "contract",
+    "title": "Verträge & Laufzeit",
+    "tags": ["vertrag", "kündigung", "agb"],
+    "content": "Alle Standardpakete sind monatlich kündbar. Kündigungsfrist: 14 Tage zum Monatsende. Keine Mindestvertragslaufzeit. Sonderlösungen (z.B. SAP Hosting) haben individuelle Vertragslaufzeiten."
+  },
+  {
+    "id": "contract-dsgvo",
+    "title": "Datenschutz & DSGVO",
+    "tags": ["datenschutz", "dsgvo", "vertrag"],
+    "content": "Customhost ist DSGVO-konform. Kunden können einen Vertrag zur Auftragsdatenverarbeitung (ADV) gemäß Art. 28 DSGVO abschließen. Daten werden ausschließlich in deutschen Rechenzentren gespeichert."
+  },
+  {
+    "id": "contract-sla",
+    "title": "Service Level Agreement (SLA)",
+    "tags": ["sla", "support", "uptime"],
+    "content": "Für Enterprise- und SAP-Kunden: garantierte Verfügbarkeit 99,9%. Reaktionszeit bei Störungen: innerhalb von 1 Stunde. Bei Nichterfüllung gibt es anteilige Gutschriften."
+  },
+  {
+    "id": "billing",
+    "title": "Abrechnung & Zahlungen",
+    "tags": ["rechnung", "zahlung", "preise"],
+    "content": "Die Abrechnung erfolgt monatlich im Voraus. Zahlungsarten: SEPA-Lastschrift, Überweisung, PayPal. Zahlungsziel: 14 Tage. Rechnungen werden per E-Mail zugestellt."
+  },
+  {
+    "id": "backup",
+    "title": "Backups",
+    "tags": ["backup", "sicherung", "daten"],
+    "content": "Alle Systeme werden täglich automatisch gesichert. Backups werden 14 Tage lang aufbewahrt. Gegen Aufpreis sind längere Backup-Aufbewahrungen (30, 60 oder 90 Tage) möglich."
+  },
+  {
+    "id": "security",
+    "title": "Sicherheit",
+    "tags": ["sicherheit", "firewall", "ddos"],
+    "content": "Unsere Rechenzentren sind ISO 27001 zertifiziert. Standardmäßig aktiv: DDoS-Schutz, Firewalls, Verschlüsselung (TLS 1.3). Optional: VPN-Zugänge, Zwei-Faktor-Authentifizierung."
+  },
+  {
+    "id": "locations",
+    "title": "Serverstandorte",
+    "tags": ["standorte", "rechenzentrum"],
+    "content": "Alle Server werden in deutschen Rechenzentren in Frankfurt und München betrieben. 100% DSGVO-konform, mit redundanter Anbindung und Notstromversorgung."
+  },
+  {
+    "id": "faq-setup",
+    "title": "FAQ – Einrichtung",
+    "tags": ["faq", "einrichtung", "setup"],
+    "content": "Nach Bestellung erhältst du automatisch deine Zugangsdaten per E-Mail. Ein vServer ist in der Regel nach 5–10 Minuten bereit. SAP-Hosting dauert ca. 1–3 Werktage."
+  },
+  {
+    "id": "faq-support",
+    "title": "FAQ – Support",
+    "tags": ["faq", "support", "hilfe"],
+    "content": "Support erhältst du über Discord (Tickets), per E-Mail (support@Customhost.de) oder telefonisch zu unseren Bürozeiten. Notfall-Support (nur für Enterprise & SAP): 24/7-Hotline."
   }
 ]
